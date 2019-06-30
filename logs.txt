@@ -1,0 +1,33 @@
+{
+"app" => "docker",
+"msg" => "",
+"process_id" => "12687",
+"offset" => 1261604,
+"level" => "info",
+"input_type" => "log",
+"source" => "/var/log/docker-containers.log",
+"message" => "Jun 28 15:21:22 earth-echgo-08cbb5fc389c5bca1 docker/516220f6d50a[12687]: {\"duration\":\"43.273µs\",\"host\":\"10.69.3.234\",\"level\":\"info\",\"msg\":\"\",\"revision\":\"e6edeea286d7d2cd57aba9e8594b9cbd3477c530\",\"time\":\"2019-06-28T15:21:22Z\",\"uri\":\"/health\"}",
+"type" => "docker",
+"uri" => "/health",
+"tags" => [
+[0] "beats_input_codec_plain_applied"
+],
+"revision" => "e6edeea286d7d2cd57aba9e8594b9cbd3477c530",
+"duration" => "43.273",
+"hostname" => "earth-echgo-08cbb5fc389c5bca1",
+"@timestamp" => 2019-06-28T15:21:23.475Z,
+"@version" => "1",
+"beat" => {
+"name" => "earth-echgo-08cbb5fc389c5bca1",
+"hostname" => "earth-echgo-08cbb5fc389c5bca1",
+"version" => "5.3.2"
+},
+"host" => "10.69.3.234",
+"time" => "2019-06-28T15:21:22Z",
+"fields" => {
+"filter" => "docker",
+"tags" => "docker-earth"
+},
+"container_id" => "516220f6d50a"
+}
+
